@@ -42,7 +42,7 @@
 .text h3{
     font-size: 115%;
     font-weight: bolder;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman';
     margin-top: 10px;
     text-decoration: underline;
     text-transform: capitalize;
