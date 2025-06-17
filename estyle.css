@@ -50,7 +50,7 @@ header {
 .education-item:hover {
   transform: translateY(-5px);
 }
-
+ 
 .education-item h2 {
   margin: 0 0 10px;
   color: #127be4;
