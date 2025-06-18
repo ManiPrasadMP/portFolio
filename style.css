@@ -14,12 +14,13 @@ body {
 }
 
 .navbar {
-  display: flex;
   position: sticky;
+  display: flex;
+  
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgb(91, 95, 190);
+  background: rgb(27, 28, 60);
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
@@ -70,13 +71,13 @@ body {
   padding: 2rem 2rem;
 }
 .hero-text {
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 4%;
+  padding: 10px;
   text-align: justify;
   max-width: 50%;
-
-  .first{
-    display: flex;
   img{
-    height: 250px;
+    height: 230px;
     width: 280px;
     border-radius: 50%;
   }
@@ -85,10 +86,9 @@ body {
     font-weight: bolder;
   }
 }
-}
 
 .hero-text h1 {
-  font-size: 2.8rem;
+  font-size: 30px;
   color: #e1d4d1;
 }
 
@@ -102,12 +102,15 @@ body {
   font-size: 1rem;
   font-weight: bolder;
   line-height: 1.6;
-  color: rgb(0, 0, 0);
+  color: rgb(156, 143, 143);
 }
 
 .highlight {
-  color: #62b013;
+  color: #040a41;
   font-weight: bold;
+  background-color: #c4e713;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .hero-img img {
