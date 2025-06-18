@@ -1,48 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>M_P Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mani Prasad K R - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-XxFdzx3DZFUGvWFTBUEh8vRMR+z58Pfek5IdEt+I+lKUpY3u0rrKX+8PSiSg7ANcGu6GhfJmrb5W8Fv4v+HgEw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label">
+      <i class="fas fa-bars"></i>
+    </label>
     <nav class="navbar">
-        <span style="font-weight: bolder;">Mani Prasad K R</span>
+      <span class="logo">Mani Prasad K R</span>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="edu.html">Education</a></li>
-        <li><a href="project.html">projects</a></li>
-        <!-- <li><a href="#">Process</a></li> -->
-        <!-- <li><a href="#">Portfolio</a></li> -->
-        <!-- <li><a href="#">Blog</a></li> -->
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
+
+  <section class="hero" id="home">
     <div class="hero-text">
       <h1>Hello, I’m Mani Prasad K R</h1>
       <p>
-        I'm an Engineering graduate  from East west college of engineering 
-         Yelahanka and <span class="highlight"> a Java FullStack Developer intern in DCL</span>
-          based in Bengaluru,Karnataka.<br>
-        I strive to build immersive and beautiful web applications through<br>
+        I'm an Engineering graduate from East West College of Engineering, Yelahanka and
+        <span class="highlight">a Java FullStack Developer intern in DCL</span>
+        based in Bengaluru, Karnataka.<br>
+        I strive to build immersive and beautiful web applications through
         carefully crafted code and user-centric design.
       </p>
     </div>
+    <section class="skills">
+      <h4>Skills</h4>
+      <div class="skill-tags">
+        <span class="skill-tag">HTML5 & CSS3</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">Java</span>
+      </div>
+    </section>
+  </section>
+
+  <section id="education">
+    <h1 class="h-name">My Education</h1>
+    <div class="education-container">
+      <div class="education-item">
+        <h2>Bachelor of Engineering in Computer Science</h2>
+        <h3>East West College (VTU), 2021 - 2025</h3>
+        <p>Studied core topics like Data Structures, Web Development, Algorithms, and Machine Learning. Participated in
+          coding contests and open-source projects.</p>
+      </div>
+      <div class="education-item">
+        <h2>PUC - Science Stream(PCMB)</h2>
+        <h3>Sri JCBM College Srigeri, 2019 - 2021</h3>
+        <p>Focused on Mathematics, Physics, and Biology. Graduated with distinction (97%) and was active in tech clubs.
+        </p>
+      </div>
+      <div class="education-item">
+        <h2>Secondary School</h2>
+        <h3>GHS Agalagandi, 2016 - 2019</h3>
+        <p>Laid the academic foundation with a strong interest in technology and programming.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h1 class="h-name">My Projects</h1>
+    <div class="projects-container">
+      <div class="project">
+        <h2>Attendance Tracker Website</h2>
+        <p>Developed a website to track the Attendance of students using HTML, CSS and JavaScript.</p>
+        <a class="github-link" href="https://github.com/Divya645515/Void_Attendance" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h2>Deep-Detector</h2>
+        <p>Developed a website which takes an URL as input and processes it using a deep learning model and detects
+          whether it is phished or legit.</p>
+        <a class="github-link" href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h2>House Price Prediction</h2>
+        <p>A machine learning model to predict housing prices based on various features.</p>
+        <a class="github-link" href="https://github.com/yourusername/project-three" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h1 class="h-name">Contact Me</h1>
+    <div class="contact-container">
+      <a class="contact-item" href="tel:+917975222398">
+        <i class="fas fa-phone"></i><strong>Phone:</strong><span>+91 7975222398</span>
+      </a>
+      <a class="contact-item" href="mailto:maniprasadkr08@gmail.com">
+        <i class="fas fa-envelope"></i><strong>Email:</strong><span>maniprasadkr08@gmail.com</span>
+      </a>
+      <a class="contact-item" href="https://www.linkedin.com/in/mani-prasad-k-r-619688316" target="_blank">
+        <i class="fab fa-linkedin"></i><strong>LinkedIn:</strong><span>linkedin.com/in/Mani_Prasad</span>
+      </a>
+      <a class="contact-item" href="https://twitter.com/Mani_PrasadMP" target="_blank">
+        <i class="fab fa-twitter"></i><strong>Twitter/X:</strong><span>@Mani_PrasadMP</span>
+      </a>
+      <div class="resume-btn">
+      <a href="https://drive.google.com/file/d/18sZRrDHbk0EGIvwTv7Lh5ztkITe6ooZZ/view" target="_blank">Resume</a>
+    </div>
+    </div>
     
-  <section class="skills">
-  <h4>Skills</h4>
-  <div class="skill-tags">
-    <span class="skill-tag">HTML5 & CSS3</span>
-    <span class="skill-tag">JavaScript</span>
-    <span class="skill-tag">SQL</span>
-    <span class="skill-tag">Git & GitHub</span>
-    <span class="skill-tag">Java</span>
-  </div>
   </section>
 </body>
+
 </html>
