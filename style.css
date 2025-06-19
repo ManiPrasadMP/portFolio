@@ -94,8 +94,8 @@ header { position: sticky; top: 0; z-index: 1000; }
   color: #73f607;
   font-weight: bold;
   /* background-color: #c4e713; */
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .hero-img {
