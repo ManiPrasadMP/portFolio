@@ -17,9 +17,9 @@ header { position: sticky; top: 0; z-index: 1000; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #000;
+  background: rgb(0,0,0,0.5);
   padding:10px 20px;
-  height: 50px;
+  height: 70px;
   color: rgb(150,255,22);
 }
 
